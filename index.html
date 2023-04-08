@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preload" href="./img/svg/icon-tg.svg" as="image">
+   <link rel="preload" href='./resources/fonts/inter-400.woff2' as="font"
+    type="font/woff2" crossorigin>
+     <link rel="preload" href='./resources/fonts/inter-700.woff2' as="font"
+    type="font/woff2" crossorigin>
+     <link rel="preload" href='./resources/fonts/inter-500.woff2' as="font"
+    type="font/woff2" crossorigin>
+     <link rel="preload" href='./resources/fonts/inter-600.woff2' as="font"
+    type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="./css/index.min.css">
+    <link rel="stylesheet" href="./css/fix.css">
+    <script src="./js/index.min.js" defer></script>
+    <script src="./js/fix.js"></script>
+    <!-- Путь должен быть вида "./resources/favicon/файл.расширение" -->
+<link rel="apple-touch-icon" sizes="76x76" href="./resources/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+<link rel="manifest" href="./resources/favicon/site.webmanifest">
+<link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo"><img src="./img/logo.jpg" alt="Pegas Touristik турагенство"></a>
+    <p class="header__adress">г. Чебоксары, ул. Ярославская, д. 34/8 (справа от Чувашского национального Конгресса)</p>
+    <div class="header__right">
+      <a href="tel:+71235678907" class="header__number">+7 (123-56) 7-89-07</a>
+      <button class="header__btn btn btn-reset" data-graph-path="quiz">Подберите мне тур</button>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="hero">
+  <div class="container hero__container">
+    <h1 class="hero__title">Туры в Египет с вылетом из Чебоксар и Казани</h1>
+    <p class="hero__descr">Получите подборку горящих туров в WhatsApp, ответив на несколько простых вопросов</p>
+    <div class="hero__btns-group">
+      <button class="hero__btn btn btn-reset" data-graph-path="quiz">Получить подборку</button>
+      <button class="hero__btn btn btn-reset" data-graph-path="question">Задать вопрос</button>
+    </div>
+  </div>
+</section>
+    <section class="popular section">
+  <div class="container popular__container">
+    <h2 class="popular__title title">Популярные направления и цены</h2>
+    <p class="popular__descr">Цена на 1 человека при двухместном размещении в стоимости:</p>
+    <ul class="popular__types list-reset">
+      <li class="popular__type type">
+        <div class="type__image"><img src="./img/svg/types/1.svg" alt=""></div>
+        <strong class="type__title">Авиаперелёт</strong>
+      </li>
+      <li class="popular__type type">
+        <div class="type__image"><img src="./img/svg/types/2.svg" alt=""></div>
+        <strong class="type__title">Групповой трансфер</strong>
+      </li>
+      <li class="popular__type type">
+        <div class="type__image"><img src="./img/svg/types/3.svg" alt=""></div>
+        <strong class="type__title">Медицинская страховка</strong>
+      </li>
+      <li class="popular__type type">
+        <div class="type__image"><img src="./img/svg/types/4.svg" alt=""></div>
+        <strong class="type__title">Проживание и питание в отеле</strong>
+      </li>
+    </ul>
+    <ul class="popular__tours list-reset">
+      <li class="popular__tour tour">
+        <div class="tour__image"><img src="./img/tours/1.jpg" alt="Шарм-эль-шейх"></div>
+        <div class="tour__wrapper">
+          <strong class="tour__title">Шарм-эль-шейх</strong>
+          <ul class="tour__types list-reset">
+            <li class="tour__type">3* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">4* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">5* — от <span>63 364</span> руб. / чел</li>
+          </ul>
+          <button type="button" class="tour__btn btn btn-reset" data-graph-path="quiz">Получить подборку</button>
+        </div>
+      </li>
+      <li class="popular__tour tour">
+        <div class="tour__image"><img src="./img/tours/2.jpg" alt="Хургада"></div>
+        <div class="tour__wrapper">
+          <strong class="tour__title">Хургада</strong>
+          <ul class="tour__types list-reset">
+            <li class="tour__type">3* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">4* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">5* — от <span>63 364</span> руб. / чел</li>
+          </ul>
+          <button type="button" class="tour__btn btn btn-reset" data-graph-path="quiz">Получить подборку</button>
+        </div>
+      </li>
+      <li class="popular__tour tour">
+        <div class="tour__image"><img src="./img/tours/3.jpg" alt="Марса-Алам"></div>
+        <div class="tour__wrapper">
+          <strong class="tour__title">Марса-Алам</strong>
+          <ul class="tour__types list-reset">
+            <li class="tour__type">3* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">4* — от <span>63 364</span> руб. / чел</li>
+            <li class="tour__type">5* — от <span>63 364</span> руб. / чел</li>
+          </ul>
+          <button type="button" class="tour__btn btn btn-reset" data-graph-path="quiz">Получить подборку</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="advantages section">
+  <div class="container advantages__container">
+    <h2 class="advantages__title title">Три причины доверить нам подбор тура в Египет</h2>
+    <ul class="advantages__list list-reset">
+      <li class="advantages__item advantage">
+        <div class="advantage__image"><img src="./img/svg/advantages/1.svg" alt=""></div>
+        <strong class="advantage__title">Сопровождаем от покупки до возвращения</strong>
+        <p class="advantage__descr">Если что-то случится на отдыхе, или возникнут проблемы с отелем, авиакомпанией,
+          страховой — сделаем всё, что от нас
+          зависит, чтобы помочь.</p>
+      </li>
+      <li class="advantages__item advantage">
+        <div class="advantage__image"><img src="./img/svg/advantages/2.svg" alt=""></div>
+        <strong class="advantage__title">Работаем и в офисе и удаленно</strong>
+        <p class="advantage__descr">Без проблем заключим онлайн договор-оферту, а оплату примем картой. А если захотите,
+          то будем рады Вас видеть в нашем
+          офисе в центре города.</p>
+      </li>
+      <li class="advantages__item advantage">
+        <div class="advantage__image"><img src="./img/svg/advantages/3.svg" alt=""></div>
+        <strong class="advantage__title">Подбираем проверенные и
+          отобранные отели</strong>
+        <p class="advantage__descr">Наши менеджеры — эксперты по курортам Египта и лично инспектировали или посещали
+          большинство рекомендуемых отелей.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="experts section">
+  <div class="container experts__container">
+    <h2 class="experts__title title">Мы эксперты по турам в Египет</h2>
+    <ul class="experts__list list-reset">
+      <li class="experts__item expert">
+        <div class="expert__image"><img src="./img/experts/1.png" alt="Олег"></div>
+        <div class="expert__data">
+          <strong class="expert__name">Олег</strong>
+          <p class="expert__descr">Опыт по направлению 7 лет</p>
+          <a href="#" class="expert__number">+7 (777-77) 7-77-77</a>
+        </div>
+      </li>
+      <li class="experts__item expert">
+        <div class="expert__image"><img src="./img/experts/2.png" alt="Елена"></div>
+        <div class="expert__data">
+          <strong class="expert__name">Елена</strong>
+          <p class="expert__descr">Опыт по направлению 7 лет</p>
+          <a href="#" class="expert__number">+7 (777-77) 7-77-77</a>
+        </div>
+      </li>
+      <li class="experts__item expert">
+        <div class="expert__image"><img src="./img/experts/3.png" alt="Екатерина"></div>
+        <div class="expert__data">
+          <strong class="expert__name">Екатерина</strong>
+          <p class="expert__descr">Опыт по направлению 7 лет</p>
+          <a href="#" class="expert__number">+7 (777-77) 7-77-77</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="banner section">
+  <div class="container banner__container">
+    <p class="banner__text">Не нашли подходящий тур? Получите подборку от нашего менеджера, или задайте свой вопрос</p>
+    <div class="banner__btns-group">
+      <button type="button" class="banner__btn btn btn-reset" data-graph-path="quiz">Получить подборку</button>
+      <button type="button" class="banner__btn btn btn-reset" data-graph-path="question">Задать вопрос</button>
+    </div>
+  </div>
+</section>
+    <section class="reviews section">
+  <div class="container reviews__container">
+    <h2 class="reviews__title title">Отзывы наших туристов</h2>
+
+    <div class="swiper reviews__swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide reviews__item review">
+          <div class="review__header">
+            <div class="review__image"><img src="./img/reviews/1.png" alt="Елена Степанов"></div>
+            <div class="review__data">
+              <strong class="review__name">Елена Степанова</strong>
+              <p class="review__descr">Знаток города 6 уровня</p>
+            </div>
+          </div>
+          <div class="review__row">
+            <ul class="review__grades list-reset">
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+            </ul>
+            <p class="review__date">20 октября 2022</p>
+          </div>
+          <p class="review__text">Хотелось бы поблагодарить ваше агентство за отличный отдых! Во-первых: по обслуживанию
+            — все по нашим хотелкам. После
+            долго выбора — нам наконец нашли отличный вариант, отель…</p>
+        </div>
+        <div class="swiper-slide reviews__item review">
+          <div class="review__header">
+            <div class="review__image"><img src="./img/reviews/1.png" alt="Елена Степанов"></div>
+            <div class="review__data">
+              <strong class="review__name">Елена Степанова</strong>
+              <p class="review__descr">Знаток города 6 уровня</p>
+            </div>
+          </div>
+          <div class="review__row">
+            <ul class="review__grades list-reset">
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+            </ul>
+            <p class="review__date">20 октября 2022</p>
+          </div>
+          <p class="review__text">Отличное агентство и вежливые менеджеры, особая благодарность онлайн-менеджеру Марине
+            за отлично подобранный тур и
+            крутой отдых. Обратимся ещё раз обязательно.</p>
+        </div>
+        <div class="swiper-slide reviews__item review">
+          <div class="review__header">
+            <div class="review__image"><img src="./img/reviews/2.png" alt="Ольга Романова"></div>
+            <div class="review__data">
+              <strong class="review__name">Ольга Романова</strong>
+              <p class="review__descr">Знаток города 2 уровня</p>
+            </div>
+          </div>
+          <div class="review__row">
+            <ul class="review__grades list-reset">
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+            </ul>
+            <p class="review__date">20 октября 2022</p>
+          </div>
+          <p class="review__text">Добрый день! Хотим выразить огромную благодарность данному агенству в лице менеждера
+            Марины за ее профессионализм,
+            компетентность, вежливость и терпение! Тур…</p>
+        </div>
+        <div class="swiper-slide reviews__item review">
+          <div class="review__header">
+            <div class="review__image"><img src="./img/reviews/2.png" alt="Ольга Романова"></div>
+            <div class="review__data">
+              <strong class="review__name">Ольга Романова</strong>
+              <p class="review__descr">Знаток города 2 уровня</p>
+            </div>
+          </div>
+          <div class="review__row">
+            <ul class="review__grades list-reset">
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+              <li class="review__grade"><img src="./img/svg/star.svg" alt=""></li>
+            </ul>
+            <p class="review__date">20 октября 2022</p>
+          </div>
+          <p class="review__text">Добрый день! Хотим выразить огромную благодарность данному агенству в лице менеждера
+            Марины за ее профессионализм,
+            компетентность, вежливость и терпение! Тур…</p>
+        </div>
+      </div>
+      <div class="reviews__navigation">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer section">
+  <div class="container">
+    <div class="footer__map"><img src="./img/map.jpg" alt=""></div>
+    <div class="footer__container">
+      <div class="footer__left footer__column">
+        <a href="#" class="footer__logo"><img src="./img/logo.jpg" alt=""></a>
+        <a href="#" class="footer__link footer__link--small">Политика обработки персональных данных</a>
+        <a href="#" class="footer__link footer__link--small">Информация о компании</a>
+        <p class="footer__descr">Pegas Touristik©</p>
+      </div>
+      <div class="footer__center footer__column">
+        <ul class="footer__list list-reset">
+          <li class="footer__item"><a href="#" class="footer__link">Тайланд</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Египет</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Турция</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">ОАЭ</a></li>
+        </ul>
+        <div class="footer__wrapper">
+          <a href="#" class="footer__adress footer__link footer__link--small">г. Чебоксары, ул. Ярославская, д. 34/8
+            (справа от Чувашского национального Конгресса)</a>
+          <a href="#" class="footer__time footer__time">С 10:00 до 19:00</a>
+        </div>
+      </div>
+      <div class="footer__right footer__column">
+        <a href="#" class="footer__number">+7 (123-56) 7-89-07</a>
+        <a href="#" class="footer__number">+7 (123-56) 7-89-07</a>
+        <button type="button" class="footer__btn btn btn-reset">Заказать звонок</button>
+        <button type="button" class="footer__btn btn btn-reset" data-graph-path="question">Задать вопрос</button>
+        <ul class="footer__socials list-reset">
+          <li class="footer__social"><a href="#"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.2854" width="32" height="32" rx="16" fill="#8D8D8D" />
+  <path
+    d="M16.5 9.73118C18.6205 9.73118 18.9096 9.73118 19.7771 9.73118C20.5482 9.73118 20.9337 9.92395 21.2229 10.0203C21.6084 10.2131 21.8976 10.3095 22.1867 10.5987C22.4759 10.8878 22.6687 11.177 22.7651 11.5625C22.8614 11.8517 22.9578 12.2372 23.0542 13.0083C23.0542 13.8758 23.0542 14.0685 23.0542 16.2854C23.0542 18.5023 23.0542 18.695 23.0542 19.5625C23.0542 20.3336 22.8614 20.7191 22.7651 21.0083C22.5723 21.3938 22.4759 21.683 22.1867 21.9721C21.8976 22.2613 21.6084 22.4541 21.2229 22.5505C20.9337 22.6468 20.5482 22.7432 19.7771 22.8396C18.9096 22.8396 18.7169 22.8396 16.5 22.8396C14.2831 22.8396 14.0904 22.8396 13.2229 22.8396C12.4518 22.8396 12.0663 22.6468 11.7771 22.5505C11.3916 22.3577 11.1024 22.2613 10.8133 21.9721C10.5241 21.683 10.3313 21.3938 10.2349 21.0083C10.1386 20.7191 10.0422 20.3336 9.94578 19.5625C9.94578 18.695 9.94578 18.5023 9.94578 16.2854C9.94578 14.0685 9.94578 13.8758 9.94578 13.0083C9.94578 12.2372 10.1386 11.8517 10.2349 11.5625C10.4277 11.177 10.5241 10.8878 10.8133 10.5987C11.1024 10.3095 11.3916 10.1167 11.7771 10.0203C12.0663 9.92395 12.4518 9.82757 13.2229 9.73118C14.0904 9.73118 14.3795 9.73118 16.5 9.73118ZM16.5 8.2854C14.2831 8.2854 14.0904 8.2854 13.2229 8.2854C12.3554 8.2854 11.7771 8.47817 11.2952 8.67094C10.8133 8.86371 10.3313 9.15287 9.8494 9.6348C9.36747 10.1167 9.1747 10.5023 8.88554 11.0806C8.69277 11.5625 8.59639 12.1408 8.5 13.0083C8.5 13.8758 8.5 14.1649 8.5 16.2854C8.5 18.5023 8.5 18.695 8.5 19.5625C8.5 20.43 8.69277 21.0083 8.88554 21.4902C9.07831 21.9721 9.36747 22.4541 9.8494 22.936C10.3313 23.4179 10.7169 23.6107 11.2952 23.8999C11.7771 24.0926 12.3554 24.189 13.2229 24.2854C14.0904 24.2854 14.3795 24.2854 16.5 24.2854C18.6205 24.2854 18.9096 24.2854 19.7771 24.2854C20.6446 24.2854 21.2229 24.0926 21.7048 23.8999C22.1867 23.7071 22.6687 23.4179 23.1506 22.936C23.6325 22.4541 23.8253 22.0685 24.1145 21.4902C24.3072 21.0083 24.4036 20.43 24.5 19.5625C24.5 18.695 24.5 18.4059 24.5 16.2854C24.5 14.1649 24.5 13.8758 24.5 13.0083C24.5 12.1408 24.3072 11.5625 24.1145 11.0806C23.9217 10.5987 23.6325 10.1167 23.1506 9.6348C22.6687 9.15287 22.2831 8.9601 21.7048 8.67094C21.2229 8.47817 20.6446 8.38179 19.7771 8.2854C18.9096 8.2854 18.7169 8.2854 16.5 8.2854Z"
+    fill="white" />
+  <path
+    d="M16.5 12.1408C14.1867 12.1408 12.3554 13.9721 12.3554 16.2854C12.3554 18.5987 14.1867 20.43 16.5 20.43C18.8133 20.43 20.6446 18.5987 20.6446 16.2854C20.6446 13.9721 18.8133 12.1408 16.5 12.1408ZM16.5 18.9842C15.0542 18.9842 13.8012 17.8276 13.8012 16.2854C13.8012 14.8396 14.9578 13.5866 16.5 13.5866C17.9458 13.5866 19.1988 14.7432 19.1988 16.2854C19.1988 17.7312 17.9458 18.9842 16.5 18.9842Z"
+    fill="white" />
+  <path
+    d="M20.741 13.0083C21.2733 13.0083 21.7048 12.5768 21.7048 12.0444C21.7048 11.5121 21.2733 11.0806 20.741 11.0806C20.2086 11.0806 19.7771 11.5121 19.7771 12.0444C19.7771 12.5768 20.2086 13.0083 20.741 13.0083Z"
+    fill="white" />
+</svg></a></li>
+          <li class="footer__social"><a href="#"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.2854" width="32" height="32" rx="16" fill="#8D8D8D" />
+  <path
+    d="M17.286 21.8854C11.2728 21.8854 7.84292 17.6812 7.70001 10.6854H10.7121C10.8111 15.8202 13.0317 17.9951 14.7906 18.4436V10.6854H17.6268V15.1139C19.3637 14.9233 21.1886 12.9052 21.8042 10.6854H24.6404C24.4084 11.8367 23.946 12.9267 23.2821 13.8874C22.6182 14.8481 21.767 15.6587 20.7818 16.2686C21.8815 16.8259 22.8528 17.6146 23.6316 18.5828C24.4104 19.551 24.9791 20.6766 25.3 21.8854H22.178C21.8899 20.8355 21.3043 19.8957 20.4947 19.1837C19.6851 18.4717 18.6875 18.0192 17.6268 17.883V21.8854H17.286V21.8854Z"
+    fill="white" />
+</svg></a></li>
+          <li class="footer__social"><a href="#"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.2854" width="32" height="32" rx="16" fill="#8D8D8D" />
+  <path
+    d="M22.9 10.3672L20.4957 22.9192C20.4957 22.9192 20.1593 23.7895 19.2351 23.3721L13.6877 18.9674L13.6619 18.9545C14.4113 18.2577 20.2219 12.8475 20.4759 12.6023C20.869 12.2225 20.625 11.9964 20.1685 12.2833L11.5854 17.9278L8.27412 16.774C8.27412 16.774 7.75302 16.582 7.70289 16.1647C7.6521 15.7466 8.29127 15.5205 8.29127 15.5205L21.7905 10.0365C21.7905 10.0365 22.9 9.53172 22.9 10.3672Z"
+    fill="white" />
+</svg></a></li>
+          <li class="footer__social"><a href="#"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.2854" width="32" height="32" rx="16" fill="#8D8D8D" />
+  <path
+    d="M22.8415 9.93535C21.261 8.36035 19.1537 7.48535 16.9293 7.48535C12.3049 7.48535 8.55854 11.2187 8.55854 15.827C8.55854 17.2854 8.96829 18.7437 9.67073 19.9687L8.5 24.2854L12.9488 23.1187C14.1781 23.7604 15.5244 24.1104 16.9293 24.1104C21.5537 24.1104 25.3 20.377 25.3 15.7687C25.2415 13.6104 24.4219 11.5104 22.8415 9.93535ZM20.9683 18.802C20.7927 19.2687 19.9732 19.7354 19.5634 19.7937C19.2122 19.852 18.7439 19.852 18.2756 19.7354C17.9829 19.6187 17.5732 19.502 17.1049 19.2687C14.9976 18.3937 13.6512 16.2937 13.5341 16.1187C13.4171 16.002 12.6561 15.0104 12.6561 13.9604C12.6561 12.9104 13.1829 12.4437 13.3585 12.2104C13.5341 11.977 13.7683 11.977 13.9439 11.977C14.061 11.977 14.2366 11.977 14.3537 11.977C14.4707 11.977 14.6463 11.9187 14.822 12.327C14.9976 12.7354 15.4073 13.7854 15.4659 13.8437C15.5244 13.9604 15.5244 14.077 15.4659 14.1937C15.4073 14.3104 15.3488 14.427 15.2317 14.5437C15.1146 14.6604 14.9976 14.8354 14.939 14.8937C14.8219 15.0104 14.7049 15.127 14.822 15.302C14.939 15.5353 15.3488 16.177 15.9927 16.7604C16.8122 17.4604 17.4561 17.6937 17.6902 17.8104C17.9244 17.927 18.0415 17.8687 18.1585 17.752C18.2756 17.6354 18.6854 17.1687 18.8024 16.9354C18.9195 16.702 19.0951 16.7604 19.2707 16.8187C19.4463 16.877 20.5 17.402 20.6756 17.5187C20.9098 17.6354 21.0268 17.6937 21.0854 17.752C21.1439 17.927 21.1439 18.3354 20.9683 18.802Z"
+    fill="white" />
+</svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  <div class="graph-modal modal">
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="question">
+    <button class="graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content modal__container">
+      <strong class="modal__title">Задать вопрос</strong>
+      <p class="modal__descr">Мы позвоним вам в ближайшее время</p>
+      <form action="./resources/mail.php" method="POST" class="modal__form form" target="iframe1">
+        <div class="form__top">
+          <label class="form__label">
+            Имя
+            <input type="text" name="name" class="input-reset form__input" placeholder="Введите данные..." required>
+          </label>
+          <label class="form__label">
+            Телефон
+            <input type="text" name="tel" class="input-reset form__input" id="input-tel" placeholder="Имя" required>
+          </label>
+        </div>
+        <label for="" class="form__label">
+          Вопрос
+          <textarea name="question" id="" placeholder="Введите данные..." class="form__textarea" required></textarea>
+        </label>
+        <iframe name="iframe1" style="position: absolute; left: -9999px;"></iframe>
+        <input class="btn-reset form__btn btn btn-reset" type="submit" value="Задать вопрос" data-graph-path="cong">
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="cong">
+    <button class="graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content modal__container">
+      <strong class="modal__title">Спасибо за доверие!</strong>
+      <p class="modal__text">Ваше обращение уже в работе. В ближайшее время с вами свяжется наш менеджер, чтобы уточнить
+        детали и отправить подборку.</p>
+      <p class="modal__text">А пока подпишитесь на <a href="#">наш телеграмм</a> чтобы быть в курсе всех горящих
+        предложений!</p>
+      <button class="btn-reset form__btn btn btn-reset" data-graph-path="question">Вернуться</button>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="quiz">
+    <button class="graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content modal__container">
+      <form class="form" action="./resources/mail.php" method="POST">
+        <div class="form__question question active-question">
+          <strong class="modal__title">Сколько ночей планируете отдыхать?</strong>
+          <div class="form__labels">
+            <label class="form__radio-label">
+              3-6 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q1" value="3-6 ночей">
+            </label>
+            <label class="form__radio-label">
+              7-10 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q1" value="7-10 ночей">
+            </label>
+            <label class="form__radio-label">
+              11-14 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q1" value="11-14 ночей">
+            </label>
+            <label class="form__radio-label">
+              15 и более ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q1" value="15 и более ночей">
+            </label>
+          </div>
+        </div>
+        <div class="form__question question">
+          <strong class="modal__title">Сколько ночей планируете отдыхать? 2</strong>
+          <div class="form__labels active-labels">
+            <label class="form__radio-label">
+              3-6 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q2" value="3-6 ночей">
+            </label>
+            <label class="form__radio-label">
+              7-10 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q2" value="7-10 ночей">
+            </label>
+            <label class="form__radio-label">
+              11-14 ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q2" value="11-14 ночей">
+            </label>
+            <label class="form__radio-label">
+              15 и более ночей
+              <input type="radio" class="form__radio" placeholder="Имя" name="q2" value="15 и более ночей">
+            </label>
+          </div>
+        </div>
+
+        <div class="form__question question last-question">
+          <strong class="modal__title">Спасибо, вся информация принята!</strong>
+          <p class="modal__descr">Мы позвоним вам в ближайшее время</p>
+          <form action="#" class="modal__form form">
+            <div class="form__top">
+              <label class="form__label">
+                Имя
+                <input type="text" class="input-reset form__input" placeholder="Введите данные..." name="name" required>
+              </label>
+              <label class="form__label">
+                Телефон
+                <input type="text" class="input-reset form__input" id="input-tel" placeholder="Имя" name="tel" required>
+              </label>
+            </div>
+            <label for="" class="form__label">
+              Вопрос
+              <textarea name="question" id="" placeholder="Введите данные..." class="form__textarea" required></textarea>
+            </label>
+        </div>
+
+        <div class="form__wrapper">
+          <p class="form__status progress-status">Готово: <span>0%</span></p>
+          <div class="form__progress">
+            <div class="form__progress-line progress-line"></div>
+          </div>
+        </div>
+        <div class="form__btns"> 
+          <button class="form__back"><img src="./img/svg/arrow.svg" alt=""></button>
+          <input class="btn-reset form__btn btn btn-reset" type="button" id="next-btn" disabled value="Далее">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

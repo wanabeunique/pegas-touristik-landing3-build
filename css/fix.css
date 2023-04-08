@@ -1,0 +1,4 @@
+.form__back{width: 25px;height: 25px;border: none;}
+.form__btns{display: flex; align-items: center; gap: 30px; justify-content: center;}
+.modal .form__btn{margin-left: 0; margin-right: 0;}
+.form__back{margin-top: var(--big-offset); background: none;}
